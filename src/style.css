@@ -1,0 +1,99 @@
+@import 'https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css';
+
+.containerInput {
+	max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.containerInput input{
+    max-width: 320px;
+    align-items: center;
+}
+
+.container {
+    padding-bottom: 70px;
+    background-color: white;
+	max-width: 400px;
+	margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 2%;
+}
+
+.container #cleanBtn{
+    margin-left: 200px;
+    margin-top: 23px;
+    position: absolute;
+    right: 1;
+}
+
+.container #saveBtn{
+    margin-top: 23px;
+    position: absolute;
+    bottom: 1;
+}
+
+.item{
+    font-size: x-large;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: xx-large;
+    font-weight: normal;
+    color: white;
+}
+
+body {
+	font-family: monospace;
+    color: #333;
+    background: rgb(107,131,255);
+    background: radial-gradient(circle, rgba(107,131,255,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+html{
+    margin-top: 280px;
+    background: rgb(107,131,255);
+    background: radial-gradient(circle, rgba(107,131,255,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+#divPai {
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+ }
+
+ /* Tooltip container */
+.tooltiti {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  /* Tooltip text */
+  .tooltiti .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltiti:hover .tooltiptext {
+    visibility: visible;
+  }
+
+

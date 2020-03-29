@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+    <link href=>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="src/style.css" rel="stylesheet">  
+    <meta charset="utf-8">
+    <title>LSD Site</title>
+</head>
+
+<body>
+    <div id="divPai">
+        <h1>Lista TO-DO</h1><br>
+        <div class="containerInput">
+            <input id="inputAdd" type="text" class="form-control">
+            <div>
+                <button id="addButton" class="btn btn-dark" type="submit" style="margin-left: 30px;">ADD</button>
+            </div>
+            
+        </div><br>
+        <div class="container">
+            <ul id="section">
+            </ul>
+            <br>
+                <button id="saveBtn" class="btn btn-primary">Salvar Alterações</button>
+                <button id="cleanBtn" class="btn btn-danger">Limpar Concluídos</button>
+                <div class="tooltiti" style="margin-left: 360px; margin-top: 75px;"><svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M10,19H13V22H10V19M12,2C17.35,2.22 19.68,7.62 16.5,11.67C15.67,12.67 14.33,13.33 13.67,14.17C13,15 13,16 13,17H10C10,15.33 10,13.92 10.67,12.92C11.33,11.92 12.67,11.33 13.5,10.67C15.92,8.43 15.32,5.26 12,5A3,3 0 0,0 9,8H6A6,6 0 0,1 12,2Z" />
+                </svg>
+                    <span class="tooltiptext">Você pode arrastar as suas tarefas para organizar do jeito que quiser! <br><br> P.S.: Apesar de ser um projeto de estudo a pagina está funcional, inclusive a funcão salvar. Teste! :)</span>
+                  </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
