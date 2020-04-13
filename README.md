@@ -1,5 +1,5 @@
-# Lista-TO-DO
-Meu primeiro projeto funcional, feito com intuito de aprender a manipular mais a DOM com o JQuery e para complementar meu portfólio.
+# TO-DO-List
+My first functional project, made in order to learn how to manipulate the DOM more with JQuery and to complement my portfolio.
 
-Fiz com intuito de aprender mais sobre manipulacao da DOM com o JQuery, e aprender mais tambem sobre o LocalStorage e como ele pode ser
-bem util para aplicacoes pequenas como essa. Obg pelo interesse :)
+I did it in order to learn more about DOM manipulation with JQuery, and learn more about LocalStorage and how it can be
+very useful for small applications like this. Thanks for the interest :)
